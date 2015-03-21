@@ -100,8 +100,8 @@ dim(y.train.data)
         # The most current tidied dataset is "mean.std.data"
 
 # 5. From the data set in step 4, create a second, independent 
-# tidy data set with the average of each variable for each 
-# activity and each subject.
-melted.data <- melt(mean.std.data, id=c("activity", "subject"))
-data2 <- dcast(melted.data, activity + subject ~ variable, mean, na.rm=TRUE)
-write.table(data2, file = "/Users/saraheneff/Desktop/Coursera R Directory/Getting&CleaningPA/GCD_PA_tidy_data.txt", row.names = FALSE)
+        # tidy data set with the average of each variable for each 
+        # activity and each subject.
+        melted.data <- melt(mean.std.data, id=c("activity", "subject"))
+        data2 <- dcast(melted.data, activity + subject ~ variable, mean, na.rm=TRUE)
+        write.table(data2, file = "/Users/saraheneff/Desktop/Coursera R Directory/Getting&CleaningPA/GCD_PA_tidy_data.txt", row.names = FALSE)
