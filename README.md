@@ -30,3 +30,12 @@ Good luck!
 3. An ordered plan of data cleaning, merging, and tidying operations was formulated and is as depicted below:
 
 ![GACD_PA_Data_Plan](https://drive.google.com/uc?id=0B8Cec8SOGFjhSkN5TGUxendIRDA&authuser=0?raw=true "GCD_PA_Data_Plan copy")
+
+### Outline of the plan:
+1.  Add the features data to x.train.data and x.test.data to create headers
+2.  Add a column for the variable "group" to the train and test data with the values of "train" and "test," respectively.
+3.  Bind the train and test x data into one dataset
+4.  Bind the y train and test data into one dataset
+5.  Apply the activity labels to the y dataset and add column name "activity"
+6.  Bind the subject train and test data into one dataset and add column name "subject"
+7.  Merge the x, activity, and subject datasets into one dataset
