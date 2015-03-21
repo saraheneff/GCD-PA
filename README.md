@@ -27,3 +27,5 @@ Good luck!
 
 1. First, data was obtained from the Getting & Cleaning Data course project webpage (the link above).
 2. The files were unzipped and stored in the working directory and uploaded into R Studio as a CSV file.
+3. An ordered plan of data cleaning, merging, and tidying operations was formulated and is as depicted below:
+![GACD_PA_Data_Plan](https://drive.draw.io/#G0B8Cec8SOGFjhRUZHc2hFZ3RxZVk&authuser=0?raw=true "Data Plan?"))
