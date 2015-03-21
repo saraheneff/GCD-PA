@@ -1,7 +1,7 @@
 # GCD-PA
 Repo containing the materials (README, script, and code book) for Getting &amp; Cleaning Data, Peer Assessment (course project)
 
-# Getting & Cleaning Data, Peer Assessnment (course project)
+# Getting & Cleaning Data, Peer Assessnment
 
 ## The Assignment:
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
@@ -26,7 +26,7 @@ Good luck!
 ## Data Processing
 
 1. First, data was obtained from the Getting & Cleaning Data course project webpage (the link above).
-2. The files were unzipped and stored in the working directory and uploaded into R Studio as a CSV file.
+2. The files were unzipped and stored in the working directory and uploaded into R Studio as a table.
 3. An ordered plan of data cleaning, merging, and tidying operations was formulated and is as depicted below:
 
 ![GACD_PA_Data_Plan](https://drive.google.com/uc?id=0B8Cec8SOGFjhSkN5TGUxendIRDA&authuser=0?raw=true "GCD_PA_Data_Plan copy")
@@ -39,3 +39,11 @@ Good luck!
 5.  Apply the activity labels to the y dataset and add column name "activity"
 6.  Bind the subject train and test data into one dataset and add column name "subject"
 7.  Merge the x, activity, and subject datasets into one dataset
+
+### Steps taken to tidy the data and the code to answer the following questions are included and outlined in the R script:
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
